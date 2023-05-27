@@ -16,3 +16,13 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
+*.sock
+
+# Docker specific
+.docker/
+.dockerignore
+docker-compose.yml
+docker-compose.override.yml
+docker-compose.env
+.env.docker
+.env.docker.example
